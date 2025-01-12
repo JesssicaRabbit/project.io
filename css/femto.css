@@ -378,6 +378,19 @@ body {
 .info-block p {
     font-size: 16px;
 }
+.info-indoor {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.info-indoor h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.info-block-indoor p {
+  font-size: 16px;
+  
+}
 .info {
   position: absolute;
   bottom: 0;
@@ -392,6 +405,7 @@ body {
 
 .item:hover .info {
   display: block; /* Показать текст при наведении на карточку */
+  font-size: 10px;
 }
 .items {
 	display: flex;
