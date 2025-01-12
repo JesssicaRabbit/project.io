@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ИС Школа</title>
+	<link rel="stylesheet" href="../css/shkola.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+	<script src="../js/cookies.js" defer></script>
+    <script src="../js/burger.js" defer></script>
+    <script src="../js/app.js" defer></script>
+</head>
+<body>
+    <header class="site-header">
+		<div class="logo-container">
+            <img src="../img/logo white.png" alt="Логотип" class="logo">
+		</div>
+		<div class="burger-menu" onclick="toggleMenu()">☰</div> <!-- Гамбургер -->
+        <nav class="nav-bar">
+            <ul class="nav-menu">
+				<li><a href="../index.html">ГЛАВНАЯ</a></li>
+                <li><a href="#">ПРОЕКТЫ</a>
+					<ul class="dropdown">
+						<li><a href="#">Единая Карта Жителя</a>
+						<ul class="sub-dropdown"> 
+							<li><a href="../pages/shkola.html">ИС Школа</a></li>
+							<li><a href="#">Транспорт</a></li>
+							<li><a href="#">Социальная карта</a></li>
+													</ul>
+												</li>
+						<li><a href="rnic.html">Региональный навигационно-информационный центр</a>
+							<ul class="sub-dropdown"> <!--вложенный список для РНИЦ-->
+	<li><a href="zakonodatelstvo glonass.html">Законодательство по ГЛОНАСС</a></li>
+	<li><a href="#">Подключения транспортных средств к РНИC</a></li>
+	<li><a href="#">Информирование</a></li>
+	<li><a href="http://monitor.arhtc.ru/user/login">Вход в РНИC</a></li>
+							</ul>
+						</li>
+						<li><a href="#">Связь</a>
+						<ul class="sub-dropdown"> 
+							<li><a href="#">Антенно-мачтовые сооружения</a></li>
+							<li><a href="#">Модульные отделения почтовой связи</a></li>
+							<li><a href="../pages/femto.html">Фемтосоты</a></li>
+													</ul>
+												</li>
+						<li><a href="#">Интеллектуальные транспортные системы</a></li>
+					</ul>
+				</li>
+				<li><a href="#about">НОВОСТИ</a></li>
+                <li><a href="../pages/contacts.html">КОНТАКТЫ</a></li>
+                <li><a href="#about">О НАС</a>
+				<ul class="dropdown">
+					<li><a href="#">Основные сведения</a></li>
+					<li><a href="#">Противодействие коррупции</a>
+					<ul class="sub-dropdown"> <!--вложенный список для РНИЦ-->
+						<li><a href="#">Комплаенс и деловая этика</a></li>
+						<li><a href="#">НПА ГБУ Архангельской области "Архтелецентр"</a></li>
+						<li><a href="#">Отчёты о мерах по реализации антикоррупционной политики</a></li>
+					</ul>
+				</li>
+					<li><a href="#">Обработка персональных данных</a></li>
+					<li><a href="#">Закупки</a></li>
+				</ul>
+			</li>
+            </ul>
+        </nav>
+		<div class="header-content">
+			<a href="https://vk.com/arhtelecenter" target="_blank" class="social-icon">
+				<img src="../img/vk_logo.png" alt="VK">
+</div>
+</a>
+	  </header>
+
+    <div class="wrapper">
+      <div class="content">
+        <div class="main-header">
+          <div class="layers">
+            <div class="layer__header">
+                          <div class="extra-content">
+                              <h1 class="extra-text"></h1>
+                          </div> 
+              <div class="layers__caption">ИС «Школа»</div>
+              <img src="" alt=""  class="layers__title">
+                  </div>
+            <div class="layer layers__base" style="background-image: url(../img/shkola/base.png);"></div>
+            
+            <div class="layer layers__middle" style="background-image: url(../img/shkola/middle.png);"></div>
+            <div class="layer layers__front" style="background-image: url(../img/shkola/front.png);"></div>
+                      </div>
+        </div>
+
+    
+      
+        <section class="block">
+          
+          <h2>О проекте</h2>
+          <p>В 2021 году Архангельская область сделала важный шаг в развитии образовательной инфраструктуры, запустив информационную систему «Школа» в образовательных учреждениях региона. Этот проект стал частью масштабной инициативы «Единая Карта Жителя Архангельской области», направленной на улучшение качества жизни и взаимодействия жителей с ключевыми учреждениями.
+            Реализация проекта стала возможной благодаря совместной работе Министерства связи и информационных технологий Архангельской области, Министерства образования региона и департамента образования администрации города Архангельска.<br> 
+            <br> Для чего создана ИС «Школа»? <br>Информационная система призвана сделать школьную жизнь удобнее, безопаснее и прозрачнее:</p>
+          <ul>
+              <li>Повышение безопасности учащихся. Благодаря современным технологиям, система позволяет фиксировать время входа и выхода детей из школы, обеспечивая спокойствие родителей.</li>
+              <li>Прозрачность учета льготного питания. Контроль за предоставлением льгот помогает родителям и администрациям быть уверенными в справедливом распределении ресурсов.</li>
+              <li>Удобство для родителей и школ. Система упрощает взаимодействие всех участников учебного процесса, минимизируя бумажные процессы и предоставляя доступ к важной информации в реальном времени.</li>
+          </ul><br>
+          <p>Почему это важно?<br>
+            ИС «Школа» — это не просто удобный инструмент, это шаг в будущее, где безопасность детей, удобство родителей и прозрачность системы образования становятся приоритетом. Благодаря этому проекту, каждый школьник может чувствовать себя защищённым, а родители и школы — уверенными в том, что всё под контролем.
+            </p>
+
+      </section>
+
+      <section class="block">
+        <h2>Школьная карта выдаётся непосредственно образовательной организацией, в которой обучается учащийся!</h2>
+    </section>
+  
+      <section class="block">
+          <h2>Как это работает</h2>
+          <ol>
+              <li>Выдача устройства. Каждый учащийся получает индивидуальное устройство для взаимодействия с системой – это может быть карта, браслет или брелок :</li>
+          <div class="gallery">
+              <img src="../img/shkola/arh1.webp" alt="Карта 1">
+              <img src="../img/shkola/arh2.webp" alt="Карта 2">
+              <img src="../img/shkola/photo.png" alt="Брелок">
+              <img src="../img/shkola/браслет.png" alt="Браслет">
+          </div><br>
+              <li>Регистрация устройства. Карта, браслет или брелок регистрируются в системе школы, что позволяет подключить учащегося к системе. Регистрацию осуществляет сотрудник образовательной организации.</li><br>
+              <li>Контроль доступа. После регистрации система контроля и управления доступом (СКУД) фиксирует все входы и выходы учащихся из образовательной организации, обеспечивая безопасность и информирование родителей.</li>
+              <div class="gallery">
+                <img src="../img/shkola/is shkola.png" alt="Карта 1"></div>
+                <br>
+              <li>Автоматизация льготного питания.
+                Информационная система значительно упрощает процесс подачи заявок на льготное питание для учащихся 1-4 классов и учёт предоставленных комплектов. Все данные доступны через личный кабинет, где можно:
+                просмотреть информацию о школе и меню на ближайшие дни;
+                отслеживать поданные заявки на льготное питание;
+                контролировать количество предоставленных комплектов питания.</li><br>
+              <li>Удобство для родителей.
+                С помощью мобильного приложения «ИС Школа» родители получают уведомления в реальном времени, включая информацию о входе и выходе ребёнка из школы, а также данные о льготном питании. Родителю пароль для входа в систему "ИС Школа" предоставляет учитель.</li>
+          </ol>
+      </section>
+  
+      <section class="block">
+          <h2>Преимущества</h2>
+          <div class="advantages">
+              <div>
+                  <h3>Для школ</h3>
+                  <p>Упрощённый контроль посещаемости и питания. Прозрачность отчётности.</p>
+              </div>
+              <div>
+                  <h3>Для родителей</h3>
+                  <p>Контроль посещаемости и питания детей. Уведомления в приложении.</p>
+              </div>
+              <div>
+                  <h3>Для учеников</h3>
+                  <p>Быстрая идентификация. Выбор формата карты (карта, браслет, брелок).</p>
+              </div>
+          </div>
+      </section>
+  
+      <section class="block">
+          <h2>Как получить карту</h2>
+          
+          <ol>
+              <li>Подать заявку через администрацию школы.</li>
+              <li>Выбрать формат идентификатора.</li>
+              <li>Забрать карту в школе или пункте выдачи.</li>
+              <li>В случае необходимости - активировать карту через поддержку.</li>
+          </ol>
+      </section>
+  
+      <section class="block">
+          <h2>Для получения справочной информации</h2>
+          <p>Телефон поддержки: <a href="tel:88002223954">8-800-222-39-54</a></p>
+          <p>Сайт: <a href="https://arhangelskid.ru/" target="_blank"> arhangelskid.ru</a></p>
+          <p>Остались вопросы? Напишите на e-mail: <a href="api@arhangelskid.ru">api@arhangelskid.ru</a></p>
+          <p>Группа ВКонтакте: <a href="https://vk.com/arhangelskid" target="_blank">vk.com/arhangelskid</a></p>
+      </section>
+  
+    
+<section class="block">
+    <h2>Приложение "ИС Школа"</h2>
+    <div class="app-info">
+        <div class="app-text">
+            <p>Мобильное приложение «ИС ШКОЛА» предоставляет доступ к модулям «Проходная» и «Столовая» для пользователей «Школьная карта». </p>
+            <ul>
+                <li>Модуль «Проходная». Родители в реальном времени получают информацию о входах и выходах ребёнка через систему контроля доступа. Все события фиксируются в архиве, а на устройство родителя приходят push-уведомления.</li>
+                <li>Модуль «Столовая». Отображается учёт льготного питания (бесплатное питание для 1–4 классов) и его состав.
+                    Доступно меню и информация о покупках ребёнка в школьном буфете.
+                    Родители могут контролировать остаток средств на карте ребёнка, переводить деньги между счетами детей и просматривать начисления дотаций.
+                    Дети могут совершать покупки через приложение, аналогично терминалам самообслуживания, и забирать продукцию в школьной столовой.</li>
+            </ul>
+            <p>Скачать приложение можно в <a href="https://play.google.com/store/apps/details?id=ru.is.school">Google Play</a></p>
+        </div>
+        <div class="app-image">
+            <img src="../img/shkola/mobil.png" alt="Интерфейс приложения Школа">
+            <p class="developer-info">
+                Приложение разработано <strong>ООО "Инновационный сервис"</strong></p>
+        </div>
+    </div>
+</section>
+
+<section class="block">
+    <h2>Карты с дополнительными функциями</h2>
+    <p>В Северодвинске доступны карты, которые помимо функций системы «Школа» предоставляют возможность льготного проезда в общественном транспорте.</p>
+    <button class="button"><a href="https://mynorth29.ru/card/transport/severodvinsk/school/">Подробнее тут</a> </button>
+</section>
+
+    <section class="block">
+      <h2>Полезная документация</h2>
+      <div class="documents">
+          <a href="doc/politika_schkola.pdf">Политика конфиденциальности, обработки и защиты персональных данных государственного бюджетного учреждения архангельской области «Архтелецентр» и пользователей информационной системы «Школа» и мобильного приложения «ИС школа» </a>
+          <a href="doc/Naznach_klass_rukovod.pdf">Методические указания администратору по назначению классного 
+            руководителя. </a>
+          <a href="doc/Sozdanie_klassov_s_parall (1).pdf">Методические указания администратору по добавлению классов и 
+            параллели в учебном заведении.</a>
+            <a href="doc/Создание сотрудников и активация.pdf">Создание сотрудников и активация.</a>
+            <a href="doc/Создание и перевод учеников и родителей.pdf">Создание и перевод учеников и родителей.</a>
+            <a href="doc/Создание заявки на питание.pdf">Создание заявки на питание.</a>
+            <a href="doc/Добавление идентификаторов.pdf">Добавление идентификаторов пользователям.</a>
+            <a href="doc/Активация родителей.pdf">Активация родителей.</a>
+            <a href="doc/Назначение классных руководителей.pdf">Назначение классных руководителей.</a>
+            <a href="doc/Памятка Активация Родителей.pdf">Памятка Активация Родителей.</a>
+      </div>
+  </section>
+  <div id="cookie-banner" style="position: fixed; bottom: 0; left: 0; width: 100%; background-color: #000; color: #fff; text-align: center; padding: 10px; z-index: 1000;">
+    <p>
+        Наш сайт использует файлы cookie для улучшения работы и персонализации контента. Подробнее о том, как мы используем файлы cookie, читайте в 
+        <a href="privacy-policy.html" style="color: #ffcc00; text-decoration: underline;">Политике конфиденциальности</a>.
+        <button onclick="acceptCookies()" style="margin-left: 10px; padding: 5px 10px; background-color: #ffcc00; border: none; color: #000; cursor: pointer;">Принять</button>
+    </p>
+</div>
+      <footer>
+        <div class="footer-container">
+            <nav class="footer-menu">
+                <ul>
+                    <p> <strong>ГБУ Архангельской области <br> "Архангельский телекоммуникационный центр"</strong></p><br>
+                    <p>Адрес: г. Архангельск, проспект Троицкий, д. 45</p>
+                </ul>
+            </nav>
+            <nav class="footer-menu">
+                <ul>
+                    <li><a href="index.html"><strong>О Нас</strong></a></li>
+                    <li><a href="about.html">Основные сведения</a></li>
+                    <li><a href="projects.html">Противодействие коррупции</a></li>
+                    <li><a href="contacts.html">Обработка персональных данных</a></li>
+                    <li><a href="contacts.html">Закупки</a></li>
+                </ul>
+            </nav>
+            <nav class="footer-menu">
+                <ul>
+                    <li><a href="index.html"><strong>Единая карта жителя</strong></a></li>
+                    <li><a href="about.html">ЛКТ "Поморье" г. Архангельск</a></li>
+                    <li><a href="projects.html">ЛКТ "Поморье" г. Северодвинск</a></li>
+                    <li><a href="contacts.html">ЛКТ "Студенческая"</a></li>
+                    <li><a href="contacts.html">ИС "Школа"</a></li>
+                    <!-- Добавь другие пункты меню здесь -->
+                </ul>
+            </nav>
+            <nav class="footer-menu">
+                <ul>
+                    <li><a href="index.html"><strong>РНИЦ</strong></a></li>
+                    <li><a href="about.html">Законодательство по ГЛОНАСС</a></li>
+                    <li><a href="projects.html">Подключение трансторта к РНИЦ</a></li>
+                    <li><a href="contacts.html">Информирование</a></li>
+                    <li><a href="contacts.html">Вход в систему РНИЦ</a></li>
+                    <!-- Добавь другие пункты меню здесь -->
+                </ul>
+            </nav>
+            <nav class="footer-menu">
+                <ul>
+                    <li><a href="index.html"><strong>ИТС</strong></a></li>
+                    <li><a href="index.html"><strong>Связь</strong></a></li>
+                    <li><a href="about.html">АМС</a></li>
+                    <li><a href="about.html">Фемтосоты</a></li>
+                    <li><a href="about.html">Закупки</a></li>
+                </ul>
+            </nav>
+            <nav class="footer-menu">
+                <ul>
+            <p> <strong>Структурное подразделение<br> "Информационно-справочный центр"</strong></p><br>
+                    <p>Адрес: г. Северодвинск, ул. Капитана Воронина, д. 38</p>
+                </ul>
+            </nav>
+        </div>
+        </footer>
+    </body>
+    </html>

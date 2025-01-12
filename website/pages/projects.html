@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ПРОЕКТЫ</title>
+    <link rel="stylesheet" href="../css/projects.css">
+    <script src="../js/app-pro.js"defer></script>
+</head>
+<body>
+    
+    <header class="site-header">
+		<div class="logo-container">
+            <img src="../img/logo white.png" alt="Логотип" class="logo">
+		</div>
+		<div class="burger-menu" onclick="toggleMenu()">☰</div> <!-- Гамбургер -->
+        <nav class="nav-bar">
+            <ul class="nav-menu">
+				<li><a href="../home/index.html">ГЛАВНАЯ</a></li>
+                <li><a href="#">ПРОЕКТЫ</a>
+					<ul class="dropdown">
+						<li><a href="#">Единая Карта Жителя</a>
+						<ul class="sub-dropdown"> 
+							<li><a href="#">ИС Школа</a></li>
+							<li><a href="#">Транспорт</a></li>
+							<li><a href="#">Социальная карта</a></li>
+													</ul>
+												</li>
+						<li><a href="#">Региональный навигационно-информационный центр</a>
+							<ul class="sub-dropdown"> <!--вложенный список для РНИЦ-->
+	<li><a href="#">Законодательство по ГЛОНАСС</a></li>
+	<li><a href="#">Подключения транспортных средств к РНИC</a></li>
+	<li><a href="#">Информирование</a></li>
+	<li><a href="http://monitor.arhtc.ru/user/login">Вход в РНИC</a></li>
+							</ul>
+						</li>
+						<li><a href="#">Связь</a>
+						<ul class="sub-dropdown"> 
+							<li><a href="#">Антенно-мачтовые сооружения</a></li>
+							<li><a href="#">Модульные отделения почтовой связи</a></li>
+							<li><a href="#">Фемтосоты</a></li>
+													</ul>
+												</li>
+						<li><a href="#">Интеллектуальные транспортные системы</a></li>
+					</ul>
+				</li>
+				<li><a href="#about">НОВОСТИ</a></li>
+                <li><a href="../contacts/index.html">КОНТАКТЫ</a></li>
+                <li><a href="#about">О НАС</a>
+				<ul class="dropdown">
+					<li><a href="#">Основные сведения</a></li>
+					<li><a href="#">Противодействие коррупции</a>
+					<ul class="sub-dropdown"> <!--вложенный список для РНИЦ-->
+						<li><a href="#">Комплаенс и деловая этика</a></li>
+						<li><a href="#">НПА ГБУ Архангельской области "Архтелецентр"</a></li>
+						<li><a href="#">Отчёты о мерах по реализации антикоррупционной политики</a></li>
+					</ul>
+				</li>
+					<li><a href="#">Обработка персональных данных</a></li>
+					<li><a href="#">Закупки</a></li>
+				</ul>
+			</li>
+            </ul>
+        </nav>
+		<div class="header-content">
+			<a href="https://vk.com/arhtelecenter" target="_blank" class="social-icon">
+				<img src="../img/vk_logo.png" alt="VK">
+</div>
+</a>
+	  </header>
+    <div class="carousel">
+        <div class="list">
+            <div class="item" style="background-image: url(../img/progects/hico.jpg);">
+                <div class="content">
+                    <div class="title">Единая Карта Жителя</div>
+                    <div class="name">ТРАНСПОРТ</div>
+                    <div class="des">Льготные транспортные карты для категорий жителей Архангельска и Северодвинска.</div>
+                    <div class="btn">
+                        <button><a href="#"><strong>Узнать больше</strong></a></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item" style="background-image: url(../img/progects/is\ shkola.png);">
+                <div class="content">
+                    <div class="title">ИС "ШКОЛА"</div>
+                    <div class="name"></div>
+                    <div class="des"> Система контроля доступа в образовательное учреждение, а также учета льготного питания с 1 по 4 классы.</div>
+                    <div class="btn">
+                        <button><a href="../pages/shkola.html"><strong>Узнать больше</strong></a></button>
+                    </div>
+                </div>
+
+            </div>
+           <!-- <div class="item" style="background-image: url(img/social.png);">
+                <div class="content">
+                    <div class="title">Социальная карта</div>
+                    <div class="name"></div>
+                    <div class="des">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis culpa similique consequuntur, reprehenderit dicta repudiandae.</div>
+                    <div class="btn">
+                        <button>Узнать больше</button>
+                    </div>
+                </div>
+            </div>-->
+
+            <div class="item" style="background-image: url(../img/progects/proj-rnic\ 1.png);">
+                <div class="content">
+                    <div class="title">Региональный навигационно-информационный центр</div>
+                    <div class="name"></div>
+                    <div class="des"> ГБУ Архангельской области "Архтелецентр" осуществляет подключение навигационного оборудования ГЛОНАСС или ГЛОНАСС/GPS, установленного на транспортных средствах <br>к Региональной навигационно-информационной системе транспортных средств</div>
+                    <div class="btn">
+                        <button><a href="#"><strong>Узнать больше</strong></a></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item" style="background-image: url(../img/progects/ams.png);">
+                <div class="content">
+                    <div class="title">Антенно-мачтовые сооружения</div>
+                    <div class="name"></div>
+                    <div class="des"> 17 антенных опоры и башен связи, предназначеных для размещения на них устройств радиорелейных линий связи, сотовой радиотелефонной связи.</div>
+                    <div class="btn">
+                        <button><a href="#"><strong>Узнать больше</strong></a></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item" style="background-image: url(../img/progects/7777.png);">
+                <div class="content">
+                    <div class="title">Модульные отделения почтовой связи</div>
+                    <div class="name"></div>
+                    <div class="des">Полноценные почтовые офисы для обеспечения населения услугами почтовой связи на отдаленных территориях Архангельской области.</div>
+                    <div class="btn">
+                        <button><a href="#"><strong>Узнать больше</strong></a></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item" style="background-image: url(../img/progects/femtos.png);">
+                <div class="content">
+                    <div class="title">Фемтосоты</div>
+                    <div class="name"></div>
+                    <div class="des">Мобильная связь для труднодоступных населенных пунктов.</div>
+                    <div class="btn">
+                        <button><a href="../pages/femto.html"><strong>Узнать больше</strong></a></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item" style="background-image: url(../img/progects/its.png);">
+                <div class="content">
+                    <div class="title">Интеллектуальная транспортная система </div>
+                    <div class="name"></div>
+                    <div class="des"> В Архангельской области внедрена система регулирования транспортным потоком. </div>
+                    <div class="btn">
+                        <button><a href="#"><strong>Узнать больше</strong></a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="arrows">
+            <button class="prev"><</button>
+            <button class="next">></button>
+        </div>
+        <div class="timeRunning"></div>
+    </div>
+    <div id="cookie-banner" style="position: fixed; bottom: 0; left: 0; width: 100%; background-color: #000; color: #fff; text-align: center; padding: 10px; z-index: 1000;">
+        <p>
+            Наш сайт использует файлы cookie для улучшения работы и персонализации контента. Подробнее о том, как мы используем файлы cookie, читайте в 
+            <a href="privacy-policy.html" style="color: #ffcc00; text-decoration: underline;">Политике конфиденциальности</a>.
+            <button onclick="acceptCookies()" style="margin-left: 10px; padding: 5px 10px; background-color: #ffcc00; border: none; color: #000; cursor: pointer;">Принять</button>
+        </p>
+    </div>
+    <footer>
+        <div class="footer-container">
+            <nav class="footer-menu">
+                <ul>
+                    <p> <strong>ГБУ Архангельской области <br> "Архангельский телекоммуникационный центр"</strong></p><br>
+                    <p>Адрес: г. Архангельск, проспект Троицкий, д. 45</p>
+                </ul>
+            </nav>
+            <nav class="footer-menu">
+                <ul>
+                    <li><a href="index.html"><strong>О Нас</strong></a></li>
+                    <li><a href="about.html">Основные сведения</a></li>
+                    <li><a href="projects.html">Противодействие коррупции</a></li>
+                    <li><a href="contacts.html">Обработка персональных данных</a></li>
+                    <li><a href="contacts.html">Закупки</a></li>
+                </ul>
+            </nav>
+            <nav class="footer-menu">
+                <ul>
+                    <li><a href="index.html"><strong>Единая карта жителя</strong></a></li>
+                    <li><a href="about.html">ЛКТ "Поморье" г. Архангельск</a></li>
+                    <li><a href="projects.html">ЛКТ "Поморье" г. Северодвинск</a></li>
+                    <li><a href="contacts.html">ЛКТ "Студенческая"</a></li>
+                    <li><a href="contacts.html">ИС "Школа"</a></li>
+                    <!-- Добавь другие пункты меню здесь -->
+                </ul>
+            </nav>
+            <nav class="footer-menu">
+                <ul>
+                    <li><a href="index.html"><strong>РНИЦ</strong></a></li>
+                    <li><a href="about.html">Законодательство по ГЛОНАСС</a></li>
+                    <li><a href="projects.html">Подключение трансторта к РНИЦ</a></li>
+                    <li><a href="contacts.html">Информирование</a></li>
+                    <li><a href="contacts.html">Вход в систему РНИЦ</a></li>
+                    <!-- Добавь другие пункты меню здесь -->
+                </ul>
+            </nav>
+            <nav class="footer-menu">
+                <ul>
+                    <li><a href="index.html"><strong>ИТС</strong></a></li>
+                    <li><a href="index.html"><strong>Связь</strong></a></li>
+                    <li><a href="about.html">АМС</a></li>
+                    <li><a href="about.html">Фемтосоты</a></li>
+                    <li><a href="about.html">Закупки</a></li>
+                </ul>
+            </nav>
+            <nav class="footer-menu">
+                <ul>
+            <p> <strong>Структурное подразделение<br> "Информационно-справочный центр"</strong></p><br>
+                    <p>Адрес: г. Северодвинск, ул. Капитана Воронина, д. 38</p>
+                </ul>
+            </nav>
+        </div>
+        </footer>
+    
+</body>
+</html>

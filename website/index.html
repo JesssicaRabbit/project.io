@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Архтелецентр</title>
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+	<script src="libs/gsap/gsap.min.js" defer></script>
+	<script src="libs/gsap/ScrollTrigger.min.js" defer></script>
+	<script src="libs/gsap/ScrollSmoother.min.js" defer></script>
+	<!--<script src="libs/gsap/SkrollTriggerV.js" defer></script>-->
+	<script src="js/app.js" defer></script>
+	<script src="js/burger.js" defer></script>
+	<script src="js/vidskroll.js" defer></script>
+	<script src="js/video.js" defer></script>
+	<script src="js/new.js" defer></script>
+	<script src="js/skroll about us.js" defer></script>
+	<script src="js/faq.js" defer></script>
+	<script src="js/cookies.js" defer></script>
+	<script src="https://cdn.jsdelivr.net/npm/hls.js@latest">defer</script>
+	
+</head>
+<body>
+    <header class="site-header">
+		<div class="logo-container">
+            <img src="img/logo white.png" alt="Логотип" class="logo">
+		</div>
+		<div class="burger-menu" onclick="toggleMenu()">☰</div> <!-- Гамбургер -->
+        <nav class="nav-bar">
+            <ul class="nav-menu">
+				<li><a href="index.html">ГЛАВНАЯ</a></li>
+                <li><a href="../website/pages/projects.html">ПРОЕКТЫ</a>
+					<ul class="dropdown">
+						<li><a href="#">Единая Карта Жителя</a>
+						<ul class="sub-dropdown"> 
+							<li><a href="../website/pages/shkola.html">ИС Школа</a></li>
+							<li><a href="#">Транспорт</a></li>
+							<li><a href="#">Социальная карта</a></li>
+													</ul>
+												</li>
+						<li><a href="rnic.html">Региональный навигационно-информационный центр</a>
+							<ul class="sub-dropdown"> <!--вложенный список для РНИЦ-->
+	<li><a href="zakonodatelstvo glonass.html">Законодательство по ГЛОНАСС</a></li>
+	<li><a href="#">Подключения транспортных средств к РНИC</a></li>
+	<li><a href="#">Информирование</a></li>
+	<li><a href="http://monitor.arhtc.ru/user/login">Вход в РНИC</a></li>
+							</ul>
+						</li>
+						<li><a href="#">Связь</a>
+						<ul class="sub-dropdown"> 
+							<li><a href="#">Антенно-мачтовые сооружения</a></li>
+							<li><a href="#">Модульные отделения почтовой связи</a></li>
+							<li><a href="../website/pages/femto.html">Фемтосоты</a></li>
+													</ul>
+												</li>
+						<li><a href="#">Интеллектуальные транспортные системы</a></li>
+					</ul>
+				</li>
+				<li><a href="#about">НОВОСТИ</a></li>
+                <li><a href="../website/pages/contacts.html">КОНТАКТЫ</a></li>
+                <li><a href="#about">О НАС</a>
+				<ul class="dropdown">
+					<li><a href="#">Основные сведения</a></li>
+					<li><a href="#">Противодействие коррупции</a>
+					<ul class="sub-dropdown"> <!--вложенный список для РНИЦ-->
+						<li><a href="#">Комплаенс и деловая этика</a></li>
+						<li><a href="#">НПА ГБУ Архангельской области "Архтелецентр"</a></li>
+						<li><a href="#">Отчёты о мерах по реализации антикоррупционной политики</a></li>
+					</ul>
+				</li>
+					<li><a href="#">Обработка персональных данных</a></li>
+					<li><a href="#">Закупки</a></li>
+				</ul>
+			</li>
+            </ul>
+        </nav>
+		<div class="header-content">
+			<a href="https://vk.com/arhtelecenter" target="_blank" class="social-icon">
+				<img src="img/vk_logo.png" alt="VK">
+</div>
+</a>
+
+	  </header>
+	 
+    <div class="wrapper">
+		<div class="content">
+			<div class="main-header">
+				<div class="layers">
+					<div class="layer__header">
+                        <div class="extra-content">
+                            <h1 class="extra-text">Каждый проект - это вклад в развитие цифровых технологий и связи в Архангельской области</h1>
+                           <a href="../website/pages/projects.html" class="parallax-button">Подробнее о проектах</a> 
+                        </div> 
+						<div class="layers__caption"></div><!--написат текст если надо-->
+						<img src="img/logo blue 2.png" alt="Логотип"  class="layers__title">
+                </div>
+					<div class="layer layers__base" style="background-image: url(img/base.jpg);"></div>
+					
+					<div class="layer layers__middle" style="background-image: url(img/middle.png);"></div>
+					<div class="layer layers__front" style="background-image: url(img/front.png);"></div>
+                    </div>
+			</div>
+			<article class="main-article" style="background-image: url(img/фон\ проекты.png);">
+				<div class="main-article__content">
+					<h2 class="main-article__header">Цифровизация в действии</h2>
+					<div class="projects-container">
+						<div class="project-card">
+							<div class="project-background"></div>
+							<div class="project-title"><strong>Региональный навигационно-информационный центр (РНИЦ)</strong></div>
+							<button class="button"><a href="http://monitor.arhtc.ru/user/login">Подробнее</a> </button>
+							
+						</div>
+						<div class="project-card">
+							<div class="project-background"></div>
+							<div class="project-title"><strong>Льготная транспортная карта «Поморье» для архангелогородцев</strong></div>
+							<button class="button"><a href="http://mynorth29.ru/card/transport/arkhangelsk">Подробнее</a> </button>
+							
+						</div>
+						<div class="project-card">
+							<div class="project-background"></div>
+							<div class="project-title"><strong>Льготные транспортные карты в г. Северодвинск</strong></div>
+							<button class="button"><a href="https://mynorth29.ru/card/transport/severodvinsk">Подробнее</a> </button>
+							
+						</div>
+					</div>
+				</div>
+			</article>
+
+           <div class="video-title">
+				<h3>РЕГИОНАЛЬНАЯ СИСТЕМА ВИДЕОНАБЛЮДЕНИЯ</h3>
+			<div class="video-container">
+				<div class="large-video"> 
+					<video id="video1" controls autoplay></video>
+				</div>
+				<div class="small-videos">
+					<div class="video-item">
+						<video id="video2" controls></video>
+					</div>
+					<div class="video-item">
+						<video id="video3" controls></video>
+					</div>
+					<div class="video-item">
+						<video id="video4" controls></video>
+					</div>
+				</div>
+				<div class="text-content">
+					<h4>Региональная система «Видеонаблюдение за объектами, расположенными на территории Архангельской области».</h4> 
+					<p>Осуществляет мониторинг и контроль в режиме реального времени.<br>
+				В систему включены объекты наблюдения за ледовой обстановкой в регионе, объекты благоустройства, капитального строительства.<br> 
+				Онлайн трансляции можно увидеть на портале «Наше Поморье».</p>
+					<a href="https://mynorth29.ru/online/" target="_blank">Перейти на портал</a>
+				</div>
+			</div>
+        </div>
+			
+<div class="its-block">
+    <h2 class="its-title">ИНТЕЛЛЕКТУАЛЬНАЯ ТРАНСПОРТНАЯ СИСТЕМА</h2>
+    <div class="its-content">
+        <div class="its-description">
+            <h4>Интеллектуальная транспортная система помогает в управлении транспортными потоками, обеспечивая безопасность и удобство передвижения.</h4> 
+			<p>ИТС обеспечивает непрерывный контроль дорожной обстановки, помогает оперативно реагировать на изменения и предупреждает о потенциальных угрозах. Наша цель — минимизировать аварийные ситуации и создать максимально безопасные условия для водителей и пешеходов.</h4>
+            <br><br><a href="https://mynorth29.ru/its" target="_blank">Узнать больше</a>
+        </div>
+        <div class="its-image">
+            <img src="img/camery.png" alt="Система ИТС">
+        </div>
+    </div>
+</div>
+
+<div class="video"><h3>ВИДЕО О НАШИХ ПРОЕКТАХ</h3>
+<div class="video-scroll-container">
+    <button class="scroll-btn left" onclick="scrollVideos('left')">←</button>
+    <div class="video-wrapper">
+		  <!-- Добавь новые видео тут -->
+        <div class="video-show"><video controls><source src="videos/VID_20241129_201947_253.mp4" type="video/mp4">Ваш браузер не поддерживает видео.</video>
+	<div class="video-info">
+		<h4> Телеканал Регион 29. Наблюдение за ледовой обстановкой на реках Архангельской области</h4>
+		<p> Дата публикации: 14 ноября 2024г.</p>
+	</div>
+	</div>
+	<div class="video-show"><video controls><source src="videos/14.11.2024 Факел.mp4" type="video/mp4">Ваш браузер не поддерживает видео.</video>
+		<div class="video-info">
+		 <h4>Телеканал Регион 29. В Архангельске на остановках общественного транспорта установили новые электронные информационные табло.</h4>
+		 <p> Дата публикации: 14 ноября 2024г.</p>
+		</div>
+		</div>
+	    <div class="video-show"><video controls><source src="videos/22.10.2024.mp4" type="video/mp4">Ваш браузер не поддерживает видео.</video>
+    <div class="video-info">
+	    <h4>Телеканал Регион 29. Заседание профильного комитета областного Собрания депутатов на базе «Архтелецентра».</h4>
+	    <p> Дата публикации: 22 октября 2024г.</p>
+     </div>
+     </div>
+	   
+	    <div class="video-show"><video controls><source src="videos/VID_20241129_201947_253.mp4" type="video/mp4">Ваш браузер не поддерживает видео.</video>
+    <div class="video-info">
+	 <h4>Наблюдение за ледовой обстановкой на реках Архангельской области</h4>
+	 <p> Дата публикации: 14 ноября 2024г.</p>
+    </div>
+    </div>
+	<div class="video-show"><video controls><source src="videos/VID_20241129_201947_253.mp4" type="video/mp4">Ваш браузер не поддерживает видео.</video>
+		<div class="video-info">
+		 <h4>Наблюдение за ледовой обстановкой на реках Архангельской области</h4>
+		 <p> Дата публикации: 14 ноября 2024г.</p>
+		</div>
+		</div>
+		<div class="video-show"><video controls><source src="videos/VID_20241129_201947_253.mp4" type="video/mp4">Ваш браузер не поддерживает видео.</video>
+			<div class="video-info">
+			 <h4>Наблюдение за ледовой обстановкой на реках Архангельской области</h4>
+			 <p> Дата публикации: 14 ноября 2024г.</p>
+			</div>
+			</div>
+    </div>
+    <button class="scroll-btn right" onclick="scrollVideos('right')">→</button>
+</div>
+</div>
+
+<div class="accordion">
+<h3>ЧАСТО ЗАДАВАЕМЫЕ ВОПРОСЫ</h3>
+<div class="accordion-item">
+	<button class="accordion-button">Кто может получить право проезда по льготной транспортной карте "ПОМОРЬЕ" на территории города Архангельск?</button>
+	<div class="accordion-content">
+	  <p>Гражданин, достигший возраста 70 лет и старше зарегистрированный по месту жительства на территории городского округа "Город Архангельск".<br>В случае отсутствия у гражданина, относящегося к льготным категориям граждан, регистрации по месту жительства на территории городского округа "Город Архангельск", льготная транспортная карта "ПОМОРЬЕ" не выдается.</p>
+	</div>
+  </div>
+  <div class="accordion-item">
+	<button class="accordion-button">Сколько поездок начисляется на льготную транспортную карту "ПОМОРЬЕ"?</button>
+	<div class="accordion-content">
+	  <p>Начисляется 20 поездок в месяц, начиная с месяца, в котором была получена ЛКТ "ПОМОРЬЕ". </p>
+	</div>
+  </div>
+  <div class="accordion-item">
+	<button class="accordion-button">Могут ли участники СВО получить льготный проезд? </button>
+	<div class="accordion-content">
+	  <p> добавить ответ</p>
+	</div>
+  </div>
+  <div class="accordion-item">
+	<button class="accordion-button">Что такое ИТС?</button>
+	<div class="accordion-content">
+	  <p>Информационно-телекоммуникационная система (ИТС) — это комплекс технологий и программных решений для обеспечения безопасности и управления транспортными потоками.</p>
+	</div>
+  </div>
+  <div class="accordion-item">
+	<button class="accordion-button">Что такое ИТС?</button>
+	<div class="accordion-content">
+	  <p>Информационно-телекоммуникационная система (ИТС) — это комплекс технологий и программных решений для обеспечения безопасности и управления транспортными потоками.</p>
+	</div>
+  </div>
+  <div class="accordion-item">
+	<button class="accordion-button">Что такое ИТС?</button>
+	<div class="accordion-content">
+	  <p>Информационно-телекоммуникационная система (ИТС) — это комплекс технологий и программных решений для обеспечения безопасности и управления транспортными потоками.</p>
+	</div>
+  </div>
+  <div class="accordion-item">
+	<button class="accordion-button">Что такое ИТС?</button>
+	<div class="accordion-content">
+	  <p>Информационно-телекоммуникационная система (ИТС) — это комплекс технологий и программных решений для обеспечения безопасности и управления транспортными потоками.</p>
+	</div>
+  </div>
+	<div class="accordion-item">
+	  <button class="accordion-button">Что такое ИТС?</button>
+	  <div class="accordion-content">
+		<p>Информационно-телекоммуникационная система (ИТС) — это комплекс технологий и программных решений для обеспечения безопасности и управления транспортными потоками.</p>
+	  </div>
+	</div>
+	<div class="accordion-item">
+	  <button class="accordion-button">Какие проекты реализуются в ИТС?</button>
+	  <div class="accordion-content">
+		<p>Проекты включают установку видеонаблюдения, управление светофорами, сбор данных с датчиков и другие решения для безопасности дорог.</p>
+	  </div>
+	</div>
+  </div>
+			<div class="partners">
+				<h3> НАШИ ПАРТНЕРЫ </h3>
+			<div class="partner-sсroll">
+					<div class="partner-grid">
+						<div class="partner">
+							<a href="https://arkhangelsk.mts.ru/personal" target="_blank"><img src="img/partners_logo/MTS.png" alt="мтс"></a></div>
+					<div class="partner">
+							<a href="https://arh.t2.ru/" target="_blank"><img src="img/partners_logo/T2.png" alt="т2"></a></div>
+							<div class="partner">
+								<a href="https://arhangelsk.shop.megafon.ru/" target="_blank"><img src="img/partners_logo/MegaFon.png" alt="мегафон"></a></div>
+							<div class="partner">
+								<a href="https://arkhangelsk.beeline.ru/customers/products/" target="_blank"><img src="img/partners_logo/beeline.png" alt="билайн"></a></div>
+							<div class="partner">
+								<a href="https://dtpax.ru/" target="_blank"><img src="img/partners_logo/datapacks.png" alt="датапакс"></a></div>
+							<div class="partner">
+								<a href="https://archangelsk.rt.ru/" target="_blank"><img src="img/partners_logo/rostelecom.png" alt="rtk"></a></div>
+							<div class="partner">
+								<a href="https://ertelecom.ru/" target="_blank"><img src="img/partners_logo/erth.png" alt="эртх"></a></div>
+							<div class="partner">
+								<a href="https://npo-its.ru/" target="_blank"><img src="img/partners_logo/ITS.png" alt="итс"></a></div>
+							<div class="partner">
+								<a href="https://www.roscosmos.ru/" target="_blank"><img src="img/partners_logo/logo_roscosmos.png" alt="роскосмос"></a></div>
+							<div class="partner">
+								<a href="https://aoglonass.ru/" target="_blank"><img src="img/partners_logo/glonass_logo.png" alt="ГЛОНАСС"></a></div>
+							<div class="partner">
+								<a href="https://arhangelsk.rtrs.ru/prof/rtrs-region/" target="_blank"><img src="img/partners_logo/RTRS_logo.png" alt="РТРС"></a></div>
+							<div class="partner">
+								<a href="https://russianspacesystems.ru/" target="_blank"><img src="img/partners_logo/rks.png" alt="RKS"></a></div>
+							<div class="partner">
+								<a href="https://xn--j1adbfbbcl.xn--p1ai/" target="_blank"><img src="img/partners_logo/pomorKom.png" alt="Поморком"></a></div>
+							<div class="partner">
+								<a href="https://arcotel.ru/" target="_blank"><img src="img/partners_logo/univer.png" alt="Бонч"></a></div>
+							<div class="partner">
+								<a href="https://info.2gis.com/" target="_blank"><img src="img/partners_logo/2gis.png" alt="2гис"></a></div>
+							<div class="partner">
+								<a href="https://yandex.ru/all#all" target="_blank"><img src="img/partners_logo/yandex-.png" alt="Яндекс"></a></div>
+							<div class="partner">
+								<a href="https://inn-service.ru/" target="_blank"><img src="img/partners_logo/ИНСЕРВИС.png" alt="ИНСЕРВИС"></a></div>
+							<div class="partner">
+								<a href="https://www.bitrix24.ru/" target="_blank"><img src="img/partners_logo/bitrix.png" alt="bitrix"></a></div>
+							<div class="partner">
+								<a href="https://www.pochta.ru/" target="_blank"><img src="img/partners_logo/POST.png" alt="post"></a></div>
+						</div>
+				</div>
+			</div>
+			<div id="cookie-banner" style="position: fixed; bottom: 0; left: 0; width: 100%; background-color: #000; color: #fff; text-align: center; padding: 10px; z-index: 1000;">
+				<p>
+					Наш сайт использует файлы cookie для улучшения работы и персонализации контента. Подробнее о том, как мы используем файлы cookie, читайте в 
+					<a href="privacy-policy.html" style="color: #ffcc00; text-decoration: underline;">Политике конфиденциальности</a>.
+					<button onclick="acceptCookies()" style="margin-left: 10px; padding: 5px 10px; background-color: #ffcc00; border: none; color: #000; cursor: pointer;">Принять</button>
+				</p>
+			</div>
+	<footer>
+		<div class="footer-container">
+			<nav class="footer-menu">
+				<ul>
+					<p> <strong>ГБУ Архангельской области <br> "Архангельский телекоммуникационный центр"</strong></p><br>
+					<p>Адрес: г. Архангельск, проспект Троицкий, д. 45</p>
+				</ul>
+			</nav>
+			<nav class="footer-menu">
+				<ul>
+					<li><a href="index.html"><strong>О Нас</strong></a></li>
+					<li><a href="about.html">Основные сведения</a></li>
+					<li><a href="projects.html">Противодействие коррупции</a></li>
+					<li><a href="contacts.html">Обработка персональных данных</a></li>
+					<li><a href="contacts.html">Закупки</a></li>
+					<!-- Добавь другие пункты меню здесь -->
+				</ul>
+			</nav>
+			<nav class="footer-menu">
+				<ul>
+					<li><a href="index.html"><strong>Единая карта жителя</strong></a></li>
+					<li><a href="about.html">ЛКТ "Поморье" г. Архангельск</a></li>
+					<li><a href="projects.html">ЛКТ "Поморье" г. Северодвинск</a></li>
+					<li><a href="contacts.html">ЛКТ "Студенческая"</a></li>
+					<li><a href="contacts.html">ИС "Школа"</a></li>
+					<!-- Добавь другие пункты меню здесь -->
+				</ul>
+			</nav>
+			<nav class="footer-menu">
+				<ul>
+					<li><a href="index.html"><strong>РНИЦ</strong></a></li>
+					<li><a href="about.html">Законодательство по ГЛОНАСС</a></li>
+					<li><a href="projects.html">Подключение трансторта к РНИЦ</a></li>
+					<li><a href="contacts.html">Информирование</a></li>
+					<li><a href="contacts.html">Вход в систему РНИЦ</a></li>
+					<!-- Добавь другие пункты меню здесь -->
+				</ul>
+			</nav>
+			<nav class="footer-menu">
+				<ul>
+					<li><a href="index.html"><strong>ИТС</strong></a></li>
+					<li><a href="index.html"><strong>Связь</strong></a></li>
+					<li><a href="about.html">АМС</a></li>
+					<li><a href="about.html">Фемтосоты</a></li>
+					<li><a href="about.html">Закупки</a></li>
+				</ul>
+			</nav>
+			<nav class="footer-menu">
+				<ul>
+			<p> <strong>Структурное подразделение<br> "Информационно-справочный центр"</strong></p><br>
+					<p>Адрес: г. Северодвинск, ул. Капитана Воронина, д. 38</p>
+				</ul>
+			</nav>
+		</div>
+		</footer>
+</body>
+</html>
