@@ -721,6 +721,90 @@ body {
 }
 
 
+.feedback{
+  color: #061239;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: -10px;
+  padding: 20px 0;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: calc(var(--index) * 1.2);
+}
+.contact-block {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  padding: 20px;
+  background-color: #fff;
+  
+}
+
+.contact-info {
+  flex: 1;
+  max-width: 40%;
+  margin-top: 20px;
+}
+
+.contact-info p {
+  color: #000;
+  line-height: 1.6;
+}
+
+.contact-form {
+  flex: 1;
+  max-width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contact-form label {
+  font-size: 14px;
+  color: #333;
+}
+.question {
+  display: flex; /* Размещаем элементы в строку */
+  gap: 20px; /* Расстояние между ответами */
+  align-items: center; /* Выравнивание по центру */
+}
+
+.question label {
+  text-align: center; /* Центрируем текст */
+}
+
+.question input {
+  display: block; /* Ставим точку выбора под текстом */
+  margin: 0 auto; /* Выравниваем по центру */
+}
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 5px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.contact-form button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #000;
+  background-color: #ffcc00;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #ffcc00;
+}
+  
+
 .accordion {
 	width: 100%;
 	max-width: 880px;

@@ -152,8 +152,8 @@
 					<h4>Региональная система «Видеонаблюдение за объектами, расположенными на территории Архангельской области».</h4> 
 					<p>Осуществляет мониторинг и контроль в режиме реального времени.<br>
 				В систему включены объекты наблюдения за ледовой обстановкой в регионе, объекты благоустройства, капитального строительства.<br> 
-				Онлайн трансляции можно увидеть на портале «Наше Поморье».</p>
-					<a href="https://mynorth29.ru/online/" target="_blank">Перейти на портал</a>
+				Онлайн трансляции можно увидеть в разделе Онлайн Поморье.</p>
+					<a href="#" target="_blank">Перейти в Онлайн Поморье</a>
 				</div>
 			</div>
         </div>
@@ -223,6 +223,80 @@
     </div>
     <button class="scroll-btn right" onclick="scrollVideos('right')">→</button>
 </div>
+</div>
+
+
+<div class="feedback">
+	<h2> ПРИМИТЕ УЧАСТИЕ В УЛУЧШЕНИИ КАЧЕСТВА СВЯЗИ </h2>
+  </div>
+<div class="contact-block">
+	<div class="contact-info">
+		<p> Если в вашем населенном пункте возникают проблемы с доступом к мобильной связи и Интернету, сообщите нам об этом. <br>
+			 Вы можете отправить заявку, в которой укажете текущую ситуацию и ваши потребности.<br>
+			 Ваши ответы помогут нам провести анализ потребностей жителей региона в мобильной связи и обеспечить контроль за деятельностью операторов. Просим заполнять анкету, указывая точные данные, чтобы мы могли максимально точно определить существующие проблемы и разработать решения для их устранения.<br>
+			Мы ценим ваше участие в процессе развития связи и постараемся сделать всё возможное, чтобы улучшить качество связи в вашем населенном пункте. <br>Нам важно каждое мнение, даже из населенных пунктов, где связь уже есть. Спасибо, что вносите свой вклад в создание современного и доступного коммуникационного пространства вместе с нами.  </p>
+	</div>
+	<form class="contact-form">
+		<form action="../index.html/backend/send.php" method="post" class="form-container">
+			<label for="name">Ваше имя:</label>
+			<input type="text" id="name" name="name" placeholder="Введите ваше имя" required>
+	 
+	<label for="district">Район или муниципальный округ:</label>
+	<input type="text" id="district" name="district" required>
+	<label for="village-council">Территориальный отдел:</label>
+	<input type="text" id="village-council" name="village-council" required>
+	<label for="location">Название населённого пункта:</label>
+	<input type="text" id="location" name="location" required>
+	<label for="contact">Ваши контакты:</label>
+	<input type="email" id="contact" name="contact" placeholder="Email или телефон" required>
+		
+	<h4>Есть ли в вашем населенном пункте мобильная связь?</h4>
+	<div class="question">
+	  <label>Есть 2G<br><input type="radio" name="mobile_connection" value="2G" required></label>
+	  <label>Есть 3G<br><input type="radio" name="mobile_connection" value="3G" required></label>
+	  <label>Есть 4G<br><input type="radio" name="mobile_connection" value="4G" required></label>
+	  <label>Нет<br><input type="radio" name="mobile_connection" value="no" required></label>
+	</div>
+	<h4>Каким мобильным оператором связи вы пользуетесь?</h4>
+	<div class="question">
+	  <label>Т2<br><input type="radio" name="internet_provider" value="provider1" required></label>
+	  <label>Мегафон<br><input type="radio" name="internet_provider" value="provider2" required></label>
+	  <label>Билайн<br><input type="radio" name="internet_provider" value="provider3" required></label>
+	  <label>МТС<br><input type="radio" name="internet_provider" value="provider4" required></label>
+	  <label>Ростелеком<br><input type="radio" name="internet_provider" value="provider5" required></label>
+	  <label>Yota<br><input type="radio" name="internet_provider" value="provider6" required></label>
+	  <label>Мобильной связь отсутствует<br><input type="radio" name="internet_provider" value="none" required>
+	  </label>
+	</div>
+	<h4>Как часто вы сталкиваетесь с обрывами связи (например, звонки прерываются)?</h4>
+	<div class="question">
+	  <label>Очень часто<br><input type="radio" name="mobile_connection" value="often" required></label>
+	  <label>Иногда<br><input type="radio" name="mobile_connection" value="sometimes" required></label>
+	  <label>Редко<br><input type="radio" name="mobile_connection" value="rarely" required></label>
+	  <label>Никогда<br><input type="radio" name="mobile_connection" value="never" required></label>
+	  <label>Мобильной связь отсутствует<br><input type="radio" name="mobile_connection" value="no" required></label>
+	</div>
+	<h4>Как вы оцениваете качество сигнала мобильной связи?</h4>
+	<div class="question">
+	  <label>Отличное<br><input type="radio" name="mobile_connection" value="excellent" required></label>
+	  <label>Хорошее<br><input type="radio" name="mobile_connection" value="good" required></label>
+	  <label>Удовлетворительное<br><input type="radio" name="mobile_connection" value="satisfactory" required></label>
+	  <label>Плохое<br><input type="radio" name="mobile_connection" value="bad" required></label>
+	  <label>Сигнала нет<br><input type="radio" name="mobile_connection" value="nosignal" required></label>
+	</div>
+	<h4>Используете ли вы домашний проводной интернт?</h4>
+	<div class="question">
+	  <label>Да<br><input type="radio" name="mobile_connection" value="yes" required></label>
+	  <label>Нет<br><input type="radio" name="mobile_connection" value="no" required></label>
+	</div>
+	<label for="message">Если вы используете домашний интернет, то какой скоростью Вы пользуетесь (например, 10 Мбит/сек) ?</label>
+			<textarea id="message" name="message" placeholder="Введите скорость предоставления услуги интернет" required></textarea>
+			<label>
+	<label for="message">Какие изменения вы хотели бы видеть в мобильной связи в Вашем населенном пункте?</label>
+			<textarea id="message" name="message" placeholder="Введите ваше сообщение" required></textarea>
+			<label><input type="checkbox" required> Я соглашаюсь на обработку данных.</label>
+			<button type="submit">Отправить</button>
+		</form>
 </div>
 
 <div class="accordion">
