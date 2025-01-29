@@ -43,11 +43,10 @@
 							<li><a href="#">Социальная карта</a></li>
 													</ul>
 												</li>
-						<li><a href="rnic.html">Региональный навигационно-информационный центр</a>
+						<li><a href="pages/rnic.html">Региональный навигационно-информационный центр</a>
 							<ul class="sub-dropdown"> <!--вложенный список для РНИЦ-->
 	<li><a href="zakonodatelstvo glonass.html">Законодательство по ГЛОНАСС</a></li>
 	<li><a href="#">Подключения транспортных средств к РНИC</a></li>
-	<li><a href="#">Информирование</a></li>
 	<li><a href="http://monitor.arhtc.ru/user/login">Вход в РНИC</a></li>
 							</ul>
 						</li>
@@ -237,66 +236,75 @@
 			Мы ценим ваше участие в процессе развития связи и постараемся сделать всё возможное, чтобы улучшить качество связи в вашем населенном пункте. <br>Нам важно каждое мнение, даже из населенных пунктов, где связь уже есть. Спасибо, что вносите свой вклад в создание современного и доступного коммуникационного пространства вместе с нами.  </p>
 	</div>
 	<form class="contact-form">
-		<form action="../index.html/backend/send.php" method="post" class="form-container">
+		<form action="send.php" method="post" class="form-container">
+			<input type="hidden" name="task_id" value="5438">
+		
 			<label for="name">Ваше имя:</label>
 			<input type="text" id="name" name="name" placeholder="Введите ваше имя" required>
-	 
-	<label for="district">Район или муниципальный округ:</label>
-	<input type="text" id="district" name="district" required>
-	<label for="village-council">Территориальный отдел:</label>
-	<input type="text" id="village-council" name="village-council" required>
-	<label for="location">Название населённого пункта:</label>
-	<input type="text" id="location" name="location" required>
-	<label for="contact">Ваши контакты:</label>
-	<input type="email" id="contact" name="contact" placeholder="Email или телефон" required>
 		
-	<h4>Есть ли в вашем населенном пункте мобильная связь?</h4>
-	<div class="question">
-	  <label>Есть 2G<br><input type="radio" name="mobile_connection" value="2G" required></label>
-	  <label>Есть 3G<br><input type="radio" name="mobile_connection" value="3G" required></label>
-	  <label>Есть 4G<br><input type="radio" name="mobile_connection" value="4G" required></label>
-	  <label>Нет<br><input type="radio" name="mobile_connection" value="no" required></label>
-	</div>
-	<h4>Каким мобильным оператором связи вы пользуетесь?</h4>
-	<div class="question">
-	  <label>Т2<br><input type="radio" name="internet_provider" value="provider1" required></label>
-	  <label>Мегафон<br><input type="radio" name="internet_provider" value="provider2" required></label>
-	  <label>Билайн<br><input type="radio" name="internet_provider" value="provider3" required></label>
-	  <label>МТС<br><input type="radio" name="internet_provider" value="provider4" required></label>
-	  <label>Ростелеком<br><input type="radio" name="internet_provider" value="provider5" required></label>
-	  <label>Yota<br><input type="radio" name="internet_provider" value="provider6" required></label>
-	  <label>Мобильной связь отсутствует<br><input type="radio" name="internet_provider" value="none" required>
-	  </label>
-	</div>
-	<h4>Как часто вы сталкиваетесь с обрывами связи (например, звонки прерываются)?</h4>
-	<div class="question">
-	  <label>Очень часто<br><input type="radio" name="mobile_connection" value="often" required></label>
-	  <label>Иногда<br><input type="radio" name="mobile_connection" value="sometimes" required></label>
-	  <label>Редко<br><input type="radio" name="mobile_connection" value="rarely" required></label>
-	  <label>Никогда<br><input type="radio" name="mobile_connection" value="never" required></label>
-	  <label>Мобильной связь отсутствует<br><input type="radio" name="mobile_connection" value="no" required></label>
-	</div>
-	<h4>Как вы оцениваете качество сигнала мобильной связи?</h4>
-	<div class="question">
-	  <label>Отличное<br><input type="radio" name="mobile_connection" value="excellent" required></label>
-	  <label>Хорошее<br><input type="radio" name="mobile_connection" value="good" required></label>
-	  <label>Удовлетворительное<br><input type="radio" name="mobile_connection" value="satisfactory" required></label>
-	  <label>Плохое<br><input type="radio" name="mobile_connection" value="bad" required></label>
-	  <label>Сигнала нет<br><input type="radio" name="mobile_connection" value="nosignal" required></label>
-	</div>
-	<h4>Используете ли вы домашний проводной интернт?</h4>
-	<div class="question">
-	  <label>Да<br><input type="radio" name="mobile_connection" value="yes" required></label>
-	  <label>Нет<br><input type="radio" name="mobile_connection" value="no" required></label>
-	</div>
-	<label for="message">Если вы используете домашний интернет, то какой скоростью Вы пользуетесь (например, 10 Мбит/сек) ?</label>
-			<textarea id="message" name="message" placeholder="Введите скорость предоставления услуги интернет" required></textarea>
-			<label>
-	<label for="message">Какие изменения вы хотели бы видеть в мобильной связи в Вашем населенном пункте?</label>
-			<textarea id="message" name="message" placeholder="Введите ваше сообщение" required></textarea>
+			<label for="district">Район или муниципальный округ:</label>
+			<input type="text" id="district" name="district" required>
+		
+			<label for="village-council">Территориальный отдел:</label>
+			<input type="text" id="village-council" name="village-council" required>
+		
+			<label for="location">Название населённого пункта:</label>
+			<input type="text" id="location" name="location" required>
+		
+			<label for="contact">Ваши контакты:</label>
+			<input type="email" id="contact" name="contact" placeholder="Email или телефон" required>
+		
+			<h4>Есть ли в вашем населенном пункте мобильная связь?</h4>
+			<div class="question">
+				<label><input type="radio" name="mobile_connection" value="2G" required> Есть 2G</label>
+				<label><input type="radio" name="mobile_connection" value="3G" required> Есть 3G</label>
+				<label><input type="radio" name="mobile_connection" value="4G" required> Есть 4G</label>
+				<label><input type="radio" name="mobile_connection" value="no" required> Нет</label>
+			</div>
+		
+			<h4>Каким мобильным оператором связи вы пользуетесь?</h4>
+			<div class="question">
+				<label><input type="radio" name="internet_provider" value="Т2" required> Т2</label>
+				<label><input type="radio" name="internet_provider" value="Мегафон" required> Мегафон</label>
+				<label><input type="radio" name="internet_provider" value="Билайн" required> Билайн</label>
+				<label><input type="radio" name="internet_provider" value="МТС" required> МТС</label>
+				<label><input type="radio" name="internet_provider" value="Ростелеком" required> Ростелеком</label>
+				<label><input type="radio" name="internet_provider" value="Yota" required> Yota</label>
+				<label><input type="radio" name="internet_provider" value="Нет" required> Мобильной связи нет</label>
+			</div>
+		
+			<h4>Как часто вы сталкиваетесь с обрывами связи?</h4>
+			<div class="question">
+				<label><input type="radio" name="connection_frequency" value="Очень часто" required> Очень часто</label>
+				<label><input type="radio" name="connection_frequency" value="Иногда" required> Иногда</label>
+				<label><input type="radio" name="connection_frequency" value="Редко" required> Редко</label>
+				<label><input type="radio" name="connection_frequency" value="Никогда" required> Никогда</label>
+			</div>
+		
+			<h4>Как вы оцениваете качество сигнала мобильной связи?</h4>
+			<div class="question">
+				<label><input type="radio" name="signal_quality" value="Отличное" required> Отличное</label>
+				<label><input type="radio" name="signal_quality" value="Хорошее" required> Хорошее</label>
+				<label><input type="radio" name="signal_quality" value="Удовлетворительное" required> Удовлетворительное</label>
+				<label><input type="radio" name="signal_quality" value="Плохое" required> Плохое</label>
+			</div>
+		
+			<h4>Используете ли вы домашний интернет?</h4>
+			<div class="question">
+				<label><input type="radio" name="home_internet" value="Да" required> Да</label>
+				<label><input type="radio" name="home_internet" value="Нет" required> Нет</label>
+			</div>
+		
+			<label for="message">Скорость интернета:</label>
+			<textarea id="message" name="message" placeholder="Введите скорость (например, 10 Мбит/сек)" required></textarea>
+		
+			<label for="changes">Какие изменения вы хотели бы видеть?</label>
+			<textarea id="changes" name="changes" placeholder="Введите ваши пожелания" required></textarea>
+		
 			<label><input type="checkbox" required> Я соглашаюсь на обработку данных.</label>
 			<button type="submit">Отправить</button>
 		</form>
+		
 </div>
 
 <div class="accordion">
